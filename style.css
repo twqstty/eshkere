@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "IBM Plex Mono";
+    src: url('./fonts/IBMPlexMono-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "IBM Plex Mono";
+    src: url('./fonts/IBMPlexMono-Bold.ttf');
+    font-weight: 700;
+}
+body{
+    background-image:url(https://www.figma.com/file/qcKarr7T5SHXhjwn3PQ2lg/image/dfd0bddab7b566964fd701840768cd9eecd5ea42);
+}
+.header{
+    color: #db00ff;
+    text-shadow: 4px 4px 0 #ff0070;
+    font-family: "IBM Plex Mono";
+    font-size: 157px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82.5%;
+}
+.activelink{
+    border: 1px solid #ff0070;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}  
+.navigation li{
+    list-style-type: none;
+    padding: 0 13px;
+} 
+.navigation li a{
+    text-decoration: none;
+    color: #ff0070;
+    font-family: "IBM Plex Mono";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}  
+li{
+    color: #ff0070;
+} 
+.er{
+    width: 491px;
+    height: 71px;
+    top: 563px;
+    left: 513px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #ff0070;
+    color: #000028;
+}

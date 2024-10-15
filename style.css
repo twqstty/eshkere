@@ -11,8 +11,8 @@
 body {
     margin: 0;
     padding: 0;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px;
+    opacity: 0px; */
     background-color: #FFF1F7;
     font-family: 'IBM Plex Mono';
 
@@ -122,9 +122,9 @@ header {
     height: 23px;
     top: 106px;
     left: 896.54px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: IBM Plex Mono;
+    /* gap: 0px;
+    opacity: 0px; */
+    font-family: 'IBM Plex Mono';
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
@@ -153,19 +153,19 @@ main {
     width: 1024px;
     height: 3352px;
     top: 828px;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px;
+    opacity: 0px; */
     
 }
-.container1 {
+.sec1 {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     width: 984px;
     height: 508px;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px;
+    opacity: 0px; */
 }
 
 
@@ -179,8 +179,8 @@ main {
     width: 314.96px;
     height: 47px;
     left: 20px;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px;
+    opacity: 0px; */
     
     font-size: 18px;
     font-weight: 700;
@@ -191,13 +191,13 @@ main {
 .right-column1 {
     width: 648.92px;
 }
-.section1 {
+.pl1 {
     width: 648.92px;
     height: 244px;
     left: 354.89px;
-    padding: 0px;
-    gap: 0px;
-    opacity: 0px;
+    padding: 0;
+    /* gap: 0px;
+    opacity: 0px; */
 }
 .titlemnogozadach, .titledofamin {
     
@@ -206,8 +206,8 @@ main {
     width: 648.92px;
     height: 23px;
     left: 354.89px;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px;
+    opacity: 0px; */
    
     font-size: 18px;
     font-weight: 700;
@@ -220,23 +220,23 @@ main {
     height: 211px;
     top: 33px;
     left: 354.89px;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px;
+    opacity: 0px; */
     font-family: 'IBM Plex Mono';
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
     text-align: left;  
 }
-.container2{
+.sec2{
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     width: 984px;
     height: 508px;
-    gap: 0px;
-    opacity: 0px
+    /* gap: 0px;
+    opacity: 0px */
 }
 .title {
     font-size: 18px;
@@ -247,7 +247,7 @@ main {
 }
 
 
-.container2 h1 {
+.sec2 h1 {
     color: #353430;
     font-family: 'IBM Plex Mono';
     font-size: 18px;
@@ -257,8 +257,8 @@ main {
     width: 315px;
     height: 47px;
     left: 20px;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px;
+    opacity: 0px; */
 }
 
 
@@ -273,12 +273,10 @@ main {
 
 .column {
     flex: 1; 
-    width: Fixed (984px)px;
-    height: Hug (431px)px;
     top: 67px;
     left: 20px;
     gap: 20px;
-    opacity: 0px;
+    /* opacity: 0px; */
 
 }
 
@@ -287,8 +285,8 @@ main {
     
     width: 315px;
     height: 23px;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px;
+    opacity: 0px; */
     font-family: 'IBM Plex Mono';
     font-size: 18px;
     font-weight: 700;
@@ -303,30 +301,30 @@ main {
     width: 315px;
     height: 351px;
     top: 33px;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px;
+    opacity: 0px; */
     font-family: 'IBM Plex Mono';
     font-size: 18px;
     font-weight: 400;
     line-height: 23.4px;
     text-align: left;
 }
-.container11{
+.sec3{
     position: relative;
     width: 315px;
     height: 98px;
     left: 20px;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px;
+    opacity: 0px; */
     
     
 }    
-.container11 h1{
+.sec3 h1{
     width: 315px;
     height: 98px;
     left: 20px;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px;
+    opacity: 0px; */
     font-family: 'IBM Plex Mono';
     font-size: 18px;
     font-weight: 700;
@@ -335,3 +333,16 @@ main {
     color: #353430;
 
 }
+.pl2{
+    width: 649px;
+    height: 23px;
+    font-family: 'IBM Plex Mono';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+    background-color: #FF8DCB;
+    position: relative;
+}  
+
+

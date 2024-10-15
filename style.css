@@ -189,10 +189,10 @@ main {
     color: #353430;
 }
 .right-column1 {
-    width: 648.92px;
+    width: 649px;
 }
 .pl1 {
-    width: 648.92px;
+    width: 649px;
     height: 244px;
     left: 354.89px;
     padding: 0;
@@ -203,7 +203,7 @@ main {
     
     background-color: #ff8dcb;
     color: #353430;
-    width: 648.92px;
+    width: 649px;
     height: 23px;
     left: 354.89px;
     /* gap: 0px;
@@ -344,5 +344,20 @@ main {
     background-color: #FF8DCB;
     position: relative;
 }  
+.loloshka{
+    width: 984px;
+    height: 1015px;
+}
+
+.left-column3{
+    width: 315px;
+    height: 98px;
+    left: 20px;
+
+}
+.rcolumn{
+    left: 355px;
+    gap: 20px;
+}
 
 

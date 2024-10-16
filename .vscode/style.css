@@ -310,14 +310,12 @@ main {
     text-align: left;
 }
 .sec3{
-    position: relative;
-    width: 315px;
-    height: 98px;
-    left: 20px;
-    /* gap: 0px;
-    opacity: 0px; */
-    
-    
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 984px;
+    height: 1024px;
 }    
 .sec3 h1{
     width: 315px;
@@ -344,20 +342,72 @@ main {
     background-color: #FF8DCB;
     position: relative;
 }  
-.loloshka{
-    width: 984px;
-    height: 1015px;
-}
 
-.left-column3{
+
+
+
+.left-dss{
+    display: flex;
+    align-items: flex-start;
+    padding-right: 20px;
     width: 315px;
-    height: 98px;
-    left: 20px;
-
 }
 .rcolumn{
     left: 355px;
     gap: 20px;
+    width: 649px;
 }
+.top5sov{
+    font-family: 'IBM Plex Mono';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+    background-color: #FF8DCB;
+}
+.z{
+    background-color: #FF8DCB;
+    font-family: 'IBM Plex Mono';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    color: rgba(53, 52, 48, 1);
+}
+.nebo{
+    width: 649px;
+    height: 244px;
+}
+.musik{
+    width: 649px;
+    height: 150px;
+    margin-top: -40px;
+}
+.progylka{
+    width: 649px;
+    height: 197px;
+    margin-top: -30px;
+}
+.xoroshoeda{
+    width: 649px;
+    height: 151px;
+    margin-top: -25px;
+}
+.readd{
+    width: 649px;
+    height: 150px;
+    margin-top: -30px;
+}
+.sigmaq{
+    font-family: 'IBM Plex Mono';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+    width: 984px;
+    height: 23px;
+    left: 20px;
+    background-color: #FF8DCB;
+    color: #353430;
 
-
+}
